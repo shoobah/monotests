@@ -12,5 +12,10 @@ namespace Test1
 			win.Show ();
 			Application.Run ();
 		}
+
+		private void DoStuff ()
+		{
+
+		}
 	}
 }
