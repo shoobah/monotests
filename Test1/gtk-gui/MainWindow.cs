@@ -15,8 +15,11 @@ public partial class MainWindow
 		global::Stetic.Gui.Initialize (this);
 		// Widget MainWindow
 		this.Name = "MainWindow";
-		this.Title = global::Mono.Unix.Catalog.GetString ("MainWindow");
-		this.WindowPosition = ((global::Gtk.WindowPosition)(4));
+		this.Title = global::Mono.Unix.Catalog.GetString ("Testlåda");
+		this.Icon = global::Stetic.IconLoader.LoadIcon (this, "gtk-color-picker", global::Gtk.IconSize.Menu);
+		this.WindowPosition = ((global::Gtk.WindowPosition)(1));
+		this.BorderWidth = ((uint)(1));
+		this.Gravity = ((global::Gdk.Gravity)(5));
 		// Container child MainWindow.Gtk.Container+ContainerChild
 		this.alignment1 = new global::Gtk.Alignment (0.5F, 0.5F, 1F, 1F);
 		this.alignment1.Name = "alignment1";

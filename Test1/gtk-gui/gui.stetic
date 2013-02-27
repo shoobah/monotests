@@ -10,8 +10,11 @@
   </import>
   <widget class="Gtk.Window" id="MainWindow" design-size="552 339">
     <property name="MemberName" />
-    <property name="Title" translatable="yes">MainWindow</property>
-    <property name="WindowPosition">CenterOnParent</property>
+    <property name="Title" translatable="yes">Testlåda</property>
+    <property name="Icon">stock:gtk-color-picker Menu</property>
+    <property name="WindowPosition">Center</property>
+    <property name="BorderWidth">1</property>
+    <property name="Gravity">Center</property>
     <signal name="DeleteEvent" handler="OnDeleteEvent" />
     <child>
       <widget class="Gtk.Alignment" id="alignment1">
